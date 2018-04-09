@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#E91E63</color>
+    <color name="bluesky">#1565C0</color>
+    <color name="jandamudaenyak">#CE93D8</color>
+    <color name="putih">#F3E5F5</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>
