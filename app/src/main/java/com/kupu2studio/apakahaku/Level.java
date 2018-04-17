@@ -16,8 +16,15 @@ public class Level extends AppCompatActivity {
     public void a(View view) {
         String a = view.getTag().toString();
         Intent intent = new Intent(Level.this, subLevel.class);
-        //intent.putExtra("id",a);
+
         startActivity(intent);
+        System.out.println(a);
+        finish();
+    }
+    @Override
+    public  void onBackPressed(){
+        Intent i=new Intent(Level.this,home.class);
+        startActivity(i);
         finish();
     }
 }

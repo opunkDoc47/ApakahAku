@@ -1,5 +1,6 @@
 package com.kupu2studio.apakahaku;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Display;
@@ -28,5 +29,11 @@ public class subLevel extends AppCompatActivity {
                 linearLayout.addView(button);
             }
         }
+    }
+    @Override
+    public  void onBackPressed(){
+        Intent i=new Intent(subLevel.this,Level.class);
+        startActivity(i);
+        finish();
     }
 }

@@ -25,4 +25,9 @@ Button ntn;
             }
         });
     }
+    @Override
+    public  void onBackPressed(){
+        finish();
+        System.exit(0);
+    }
 }
